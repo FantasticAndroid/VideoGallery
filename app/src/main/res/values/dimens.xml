@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="video_gallery_layout_weight_sum">100</integer>
+    <integer name="video_gallery_layout_weight">33</integer>
+    <integer name="non_video_gallery_layout_weight">67</integer>
+
+</resources>
+
+

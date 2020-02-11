@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_6sdp"
+    android:layout_marginTop="@dimen/_3sdp"
+    android:layout_marginEnd="@dimen/_6sdp"
+    android:layout_marginBottom="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_4sdp"
+    app:cardElevation="@dimen/_4sdp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="@dimen/_72sdp">
+
+            <ImageView
+                android:id="@+id/iv_video_thumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/tv_video_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:background="@color/trans_gray"
+                android:padding="@dimen/_2sdp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_9ssp"
+                android:visibility="gone"
+                tools:text="00:00"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_play_small_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_margin="@dimen/_2sdp"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_play"
+                android:tint="@color/colorPrimary" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_video_slug_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lineSpacingExtra="0.9sp"
+            android:maxLines="4"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_14ssp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

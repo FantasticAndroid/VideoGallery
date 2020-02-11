@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.DashboardActivity">
+
+    <Button
+        android:layout_marginTop="@dimen/_15sdp"
+        android:id="@+id/playVideo"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video" />
+
+    <Button
+        android:layout_marginTop="@dimen/_15sdp"
+        android:id="@+id/playVideoGalleryList"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video List" />
+
+    <Button
+        android:layout_marginTop="@dimen/_15sdp"
+        android:id="@+id/playVideoGalleryGrid"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video Grid" />
+
+    <Button
+        android:layout_marginTop="@dimen/_15sdp"
+        android:id="@+id/playVideoGalleryBigList"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video Big List" />
+
+    <Button
+        android:layout_marginTop="@dimen/_15sdp"
+        android:id="@+id/playVideoGalleryListing"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Video Listing" />
+
+
+</LinearLayout>

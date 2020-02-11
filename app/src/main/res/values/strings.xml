@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VideoGallery</string>
+    <string name="label_view_more">See More</string>
+    <string name="label_view_less">Close</string>
+    <string name="colorPrimary">008577</string>
+    <string name="label_aur_paden">Read More</string>
+    <string name="label_band_karen">Close</string>
+</resources>

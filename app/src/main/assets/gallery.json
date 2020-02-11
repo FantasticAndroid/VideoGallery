@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "This is a Title 1",
+    "description": "<p>This is description <b>This is a bold description</b></p>",
+    "videoUrl": "https://www.radiantmediaplayer.com/media/bbb-360p.mp4",
+    "imageUrl": "https://pngimage.net/wp-content/uploads/2018/06/png-music-video.png",
+    "squareImageUrl" : "https://pngimage.net/wp-content/uploads/2018/06/png-music-video.png"
+  },
+  {
+    "id": "2",
+    "title": "This is a Title 2",
+    "description": "<p>This is description <b>This is a bold description</b></p>",
+    "videoUrl": "https://www.radiantmediaplayer.com/media/bbb-360p.mp4",
+    "imageUrl": "https://pngimage.net/wp-content/uploads/2018/06/png-music-video.png",
+    "squareImageUrl" : "https://pngimage.net/wp-content/uploads/2018/06/png-music-video.png"
+  },
+  {
+    "id": "3",
+    "title": "This is a Title 3",
+    "description": "<p>This is description <b>This is a bold description</b></p>",
+    "videoUrl": "https://www.radiantmediaplayer.com/media/bbb-360p.mp4",
+    "imageUrl": "https://pngimage.net/wp-content/uploads/2018/06/png-music-video.png",
+    "squareImageUrl" : "https://pngimage.net/wp-content/uploads/2018/06/png-music-video.png"
+  }
+]
